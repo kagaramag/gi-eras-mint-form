@@ -1,0 +1,213 @@
+
+* {
+  font-family: AvenirNextRegular, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+body {
+  background: #eceef1;
+}
+.signin-header {
+  height: 60px;
+  float: none;
+  padding: 10px 30px;
+  background: #eceef1;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+}
+.header-content {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-weight: 400;
+  color: #505050;
+  float: right;
+  display: flex;
+}
+.login-link {
+  float: left;
+  margin-right: 10px;
+  text-align: right;
+}
+#forgot-pwd {
+  color: #0077c5;
+  text-decoration: none;
+}
+#signin-btn {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125em;
+  font-weight: normal;
+  height: 34px;
+}
+.white-lock {
+    height: 1em;
+    width: 0.8em;
+    margin-top: 2px;
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .header {
+    padding: 20px 0;
+  }
+  .logo {
+    width: 118px;
+    height: 35px;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/ecosystem_logos_new.png);
+    margin: 0 auto;
+  }
+
+  .form {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .signup {
+    width: 420px;
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #d1d1d1;
+    border-style: solid;
+  }
+  .signup h3 {
+    font-weight: lighter;
+    color: #535353;
+  }
+  .signup h5 {
+    font-weight: lighter;
+    color: #535353;
+  }
+  .signup a {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 0;
+    font-weight: lighter;
+    font-size: 12px;
+  }
+  .field {
+    padding-top: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px;
+  }
+  .form-field input {
+    border-width: 1px;
+    border-color: #d3d3d3;
+    width: 89.45%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 30px;
+    border-style: solid;
+    padding-left: 5px;
+    padding-right: 30px;
+  }
+  .form-field span {
+    padding-bottom: 17px;
+    padding-top: 5px;
+    font-size: 11px;
+    color: #444;
+  }
+
+  #password {
+    background-image: url(./images/lock.png);
+    background-position: right center;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 17px 17px;
+    background-position-x: 97%;
+  }
+
+  #btn-image {
+    height: 1em;
+    width: 0.8em;
+    /* margin-top: 2px; */
+    margin-right: 4px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.6.5/images/icon-whitelock@3x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 15px;
+  }
+
+  #btn-text {
+    margin-top: 3px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .signup-action {
+    width: 380px;
+    height: 44px;
+    margin: auto;
+  }
+  .form-footer {
+    text-align: center;
+  }
+  .terms {
+    font-style: italic;
+    color: #757575;
+    font-size: 12px;
+  }
+  
+  .footer-row{
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
+  list-style: none;
+  color:#505050;
+  font-size: 12px;
+  margin-top: 30px;
+  padding: 5px,0px,0px;
+  text-align: center;
+  
+  }
+  .footer-row a{
+    text-decoration: none;
+    color: #505050;
+  }
+  .footer-row li{
+    display: inline;
+    text-decoration: none;
+  }
+  .footer-link-container{
+    font-size: 12px;
+    margin: 0 auto;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .footer-row{
+    margin-top: 0px;
+  }
+  .footer-row footer-copyright{
+   
+    outline: none;
+    width: 60%;
+    text-align: center;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-size: 12px;
+  }
+  span.foot{
+    margin-top: 0px;
+  }
+  footer{
+    margin-top: 5px;
+  }
+  
+  
