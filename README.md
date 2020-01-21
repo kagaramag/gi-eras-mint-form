@@ -2,7 +2,7 @@
 
 This is a project on building a HTML form for the purpose of improving HTML and CSS skills.
 
-![screenshot]()
+![screenshot](./images/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://raw.githack.com/djallas/gi-eras-mint-form/develop/index.html)
 
 
 ## Getting Started
