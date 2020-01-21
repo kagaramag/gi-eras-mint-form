@@ -1,19 +1,28 @@
 body {
   background: #eceef1;
+  font-family: 'Avenir Next', 'Arial', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .signin-header {
-  height: 60px;
   float: none;
   padding: 10px 30px;
-  background: #eceef1;
   font-size: 12px;
   line-height: 1.5;
-  text-align: left;
 }
 
 .header-content {
-  font-weight: 400;
   color: #505050;
   float: right;
   display: flex;
@@ -21,25 +30,15 @@ body {
 
 .login-link {
   float: left;
-  margin-right: 10px;
-  text-align: right;
 }
 
-#forgot-pwd {
-  color: #0077c5;
-  text-decoration: none;
+.login-link a {
+  color: #2570c5;
 }
 
-#signin-btn {
-  background: #0077c5;
-  border-radius: 4px;
-  padding: 0 20px;
-  border: 1px solid #ccc;
-  color: white;
-  cursor: pointer;
-  font-size: 1.125em;
-  font-weight: normal;
-  height: 34px;
+.signin-btn {
+  float: left;
+  padding: 10px 0 0 10px;
 }
 
 .white-lock {
@@ -72,23 +71,29 @@ body {
   padding-top: 20px;
 }
 
-.signup {
-  width: 420px;
-  height: auto;
-  text-align: center;
+.grab-form {
+  margin: 20px auto;
+  max-width: 370px;
+  width: 100%;
+  padding: 0;
   background-color: #fff;
-  border-width: 1px;
-  border-color: #d1d1d1;
-  border-style: solid;
+  border: 1px #a1a1a1 solid;
+  border-radius: 3px;
+}
+
+.signup {
+  padding: 35px 35px 0 35px;
 }
 
 .signup h3 {
-  font-weight: lighter;
+  font-weight: 300;
+  text-align: center;
   color: #535353;
 }
 
 .signup h5 {
   font-weight: lighter;
+  text-align: center;
   color: #535353;
 }
 
@@ -150,20 +155,17 @@ body {
   font-size: 15px;
 }
 
-#btn-text {
-  margin-top: 3px;
-  color: #fff;
-  font-size: 15px;
-}
-
-.signup-action {
-  width: 380px;
-  height: 44px;
-  margin: auto;
-}
-
 .form-footer {
   text-align: center;
+  font-size: 10px;
+  margin: 15px;
+}
+
+.form-captcha {
+  background: #d4d4d4;
+  padding: 14px;
+  text-align: center;
+  font-size: 10px;
 }
 
 .terms {
@@ -199,6 +201,10 @@ body {
   overflow: hidden;
 }
 
+.footer-link-container a {
+  padding: 4px 15px;
+}
+
 .footer-row .footer-copyright {
   outline: none;
   width: 60%;
@@ -210,4 +216,56 @@ body {
 
 footer {
   margin-top: 5px;
+}
+
+.signin-btn a {
+  background: #2570c5;
+  padding: 8px 22px;
+  border: 1px solid #060e27;
+  color: #fefefe;
+  border-radius: 3px;
+}
+
+.form-input {
+  margin: 35px 0;
+  width: 100%;
+}
+
+.form-input input {
+  width: 98%;
+  padding: 8px 1%;
+  border-radius: 3px;
+  border: 1px solid #cdcdcd;
+}
+
+.signup-action {
+  width: 100%;
+}
+
+.signup-act button {
+  width: 100%;
+  padding: 16px;
+  background: #2570c5;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.brands {
+  margin: 6px auto;
+  width: 320px;
+  display: block;
+}
+
+.brands span {
+  position: relative;
+  top: 0;
+  margin: 0 6px;
+}
+
+.brands span img {
+  position: relative;
+  top: 10px;
+  margin: 6px 0;
+  width: 22px;
+  height: auto;
 }
